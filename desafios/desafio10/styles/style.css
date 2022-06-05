@@ -51,6 +51,7 @@ header {
 header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
+    font-weight: normal;
     font-size: 3em;
     margin-bottom: 20px;
 }
@@ -101,12 +102,14 @@ main {
 main h1 {
     color: var(--cor5);
     font-family: var(--fonte-android);
+    font-size: 1.8em;
 }
 
 main h2 {
     font-family: var(--fonte-android);
     color: var(--cor4);
     font-size: 1.3em;
+    font-weight: normal;
     background-image: linear-gradient(to right, var(--cor1), transparent);
 }
 
@@ -131,6 +134,10 @@ main a {
     padding: 2px 6px;
 }
 
+a.external::after {
+    content: '\00A0\1F517';
+}
+
 main a:hover {
     text-decoration: underline;
     color: var(--cor3);
@@ -146,7 +153,57 @@ main img.pequena {
     margin: auto
 }
 
+div.video {
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 98%;
+    height: 98%;
+}
+
+aside {
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.288);
+}
+
+aside h3 {
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
 footer {
     background-color: var(--cor5);
     color: white;
+    text-align: center;
+    font-size: 0.8em;padding: 5px;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
 }
