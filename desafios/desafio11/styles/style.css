@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#conteiner {
+    position: relative;
+    height: 100vh;
+}
+
+#conteudo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#espaco {
+    height: 100%;
+    width: 100%;
+}
