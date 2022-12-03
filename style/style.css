@@ -1,5 +1,9 @@
 @charset "UTF8";
 
+:root{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -60,18 +64,20 @@ a:hover {
 }
 
 main > h2 {
-    padding-left: 15px;
+    padding: 5px 0px 5px 15px;
 }
 
 main > section > h3 {
-    padding-left: 30px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(201, 201, 201));
+    padding: 10px 0px 10px 30px;
 }
 
 main > section > div.destaque {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.500);
     background-color: black;
-    padding: 20px;
-    padding-bottom: 56%;
-    border-radius: 5px;
+    padding: 30px;
+    padding-bottom: 60%;
+    border-radius: 0px 0px 5px 5px;
     position: relative;
 
 }
@@ -86,6 +92,7 @@ main > section > div > iframe {
 
 main > section.container {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
 
