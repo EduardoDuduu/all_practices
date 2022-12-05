@@ -38,7 +38,7 @@ header > p {
     margin: auto;
     padding-top: 15px;
     padding-bottom: 15px;
-    max-width: 300px;
+    max-width: 450px;
 }
 
 main{
@@ -53,6 +53,18 @@ main{
 p.exercicios {
     padding-left: 30px;
     padding-bottom: 20px;
+}
+
+section > a {
+    background-color: black;
+    color: white;
+    width: 160px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    padding: 3px 0px;
+    text-align: center;
+    border-radius: 14px;
 }
 
 a {
