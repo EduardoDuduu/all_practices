@@ -92,6 +92,18 @@ section#img02 {
     background-image: url(../imagens/background002.jpg);
 }
 
+section > a.link-portfolio {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 3px 0px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 14px;
+}
+
 footer {
     background-color: black;
     color: white;

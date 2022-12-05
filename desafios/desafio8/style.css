@@ -1,22 +1,38 @@
+@charset "UTF-8";
+
+a.link-portfolio {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    width: 130px;
+    margin-top: 15px;
+    padding: 3px 0px;
+    text-align: center;
+    border-radius: 14px;
+}
+
 #cinza {
-    background-color: rgb(133, 133, 133);
+    background-color: lightgray;
 
 }
 
 #verde {
-    background-color: rgb(93, 255, 106);
+    background-color: lightgreen;
     
 }
 
 #amarelo{
-    background-color: rgb(252, 255, 103);
+    background-color: lightyellow;
 }
 
 .txtverd{
-    color: rgb(21, 107, 0);
+    color: darkgreen;
 }
 
 .txtamare{
-    color: rgb(134, 136, 0);
+    color: darkgoldenrod;
 }
 
