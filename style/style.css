@@ -1,7 +1,7 @@
 @charset "UTF8";
 
 :root{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 * {
@@ -24,6 +24,7 @@ h1 {
 header{
     background-image: linear-gradient(to bottom, rgb(15, 15, 15), rgb(158, 158, 158));
     padding-top: 20px;
+    text-align: center;
 }
 
 header > img {
@@ -35,10 +36,9 @@ header > img {
 
 header > p {
     margin: auto;
-    text-align: center;
     padding-top: 15px;
-    padding-bottom: 10px;
-    max-width: 400px;
+    padding-bottom: 15px;
+    max-width: 300px;
 }
 
 main{
@@ -50,7 +50,7 @@ main{
     border-radius: 10px 10px 0px 0px;
 }
 
-p {
+p.exercicios {
     padding-left: 30px;
     padding-bottom: 20px;
 }

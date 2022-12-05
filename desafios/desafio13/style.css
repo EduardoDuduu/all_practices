@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+p {
+    background-color: black;
+    width: 160px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    padding: 3px 0px;
+    text-align: center;
+    border-radius: 14px;
+}
+
+p#link-portfolio {
+    font-size: small;
+    font-variant: small-caps;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+table {
+    width: 300px;
+    border-collapse: separate;
+    margin: auto;
+}
+
+td {
+    border: 2px solid black;
+    text-align: center;
+}
