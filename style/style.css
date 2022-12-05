@@ -55,18 +55,6 @@ p.exercicios {
     padding-bottom: 20px;
 }
 
-section > a {
-    background-color: black;
-    color: white;
-    width: 160px;
-    margin: auto;
-    margin-bottom: 20px;
-    margin-top: 15px;
-    padding: 3px 0px;
-    text-align: center;
-    border-radius: 14px;
-}
-
 a {
     color: black;
     text-decoration: none;
@@ -113,6 +101,15 @@ main > section.container {
 
 main > section > a {
     padding: 10px;
+    background-color: black;
+    color: white;
+    width: 160px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    padding: 3px 0px;
+    text-align: center;
+    border-radius: 14px;
 }
 
 footer {
