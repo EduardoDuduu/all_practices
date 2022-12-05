@@ -44,7 +44,7 @@ header > p {
 main{
     box-shadow: 2px 2px 15px rgb(0, 0, 0);
     background-color: white;
-    max-width: 700px;
+    max-width: 850px;
     margin: auto;
     padding-bottom: 30px;
     border-radius: 10px 10px 0px 0px;
@@ -86,8 +86,8 @@ main > section > div.destaque {
 main > section > div > iframe {
     position: absolute;
     top: 2.5%;
-    left: 2.5%;
-    width: 95%;
+    left: 5%;
+    width: 90%;
     height: 95%;
 }
 
