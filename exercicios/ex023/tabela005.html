@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 22</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 3px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .csexo, .cprof {
+            background-color: gray;
+        }
+        .cidade {
+            background-image: linear-gradient(to right, lightblue, white);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Colunas com colgroup</h1>
+    <table>
+        <colgroup> <!-- Essa tag faz a coluna ser selecionada. -->
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Roberto</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Cláudio</td>
+            <td>M</td>
+            <td>42</td>
+            <td>Nutricionista</td>
+        </tr>
+        <tr>
+            <td>José</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Carpinteiro</td>
+        </tr>
+        <tr>
+            <td>Júlia</td>
+            <td>F</td>
+            <td>39</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Marcos</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Radialista</td>
+        </tr>
+    </table>
+    <p id="link-portfolio"><a href="index.html">&lt; Volte ao Inicio</a></p>
+</body>
+</html>
