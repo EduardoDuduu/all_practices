@@ -18,10 +18,10 @@
     <h1>Olá Mundo</h1>
     <p>já me livrei da maltição kk</p>
     <script>
-        var n1 = Number.parseInt(window.prompt('Digite um numero.'))
-        var n2 = Number.parseInt(window.prompt('Digite outro numero.'))
+        var n1 = Number.parseFloat(window.prompt('Digite um numero.')) //Números reais, com ponto
+        var n2 = Number.parseInt(window.prompt('Digite outro numero.')) //Números indeiros, sem ponto
         var s = n1 + n2
-        window.alert("A soma dos valores é " + s)
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}!`) 
     </script>
 </body>
 </html>

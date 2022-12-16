@@ -55,3 +55,10 @@ Dicas:
 
 string + string = concatenação, que é a junção dos dois valores, sem somar!!!
 number + number = soma, logo vai somar os valores.
+
+> Formatação de strings
+
+var s = 'Java Script'
+'Eu estou aprendendo s'      //não faz interpolação
+'Eu estou aprendendo ' + s   //usa concatenação
+`Eu estou aprendendo ${s}`   //usa template strings
