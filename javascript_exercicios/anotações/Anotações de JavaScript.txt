@@ -22,16 +22,18 @@ Tipos Primitivos:
 4º > tipo null
 5º > tipo undefined
 6º > object
-        Array
+        *Array
 7º > function
 
 
 Declaraçcão de variaveis:
 
 formas de delimitar uma string:
-   {""
-    ''
-    ``}
+    {
+        ""
+        ''
+        ``
+    }
 
 var = variavel global
 const = variavel com valor fixo
@@ -50,3 +52,6 @@ Dicas:
 *Maiusculas e minúsculas fazem diferença
 *Tente escolher nomes coerentes para as variáveis
 *Evite se tornar um 'programador alfabeto' ou um 'programador contador'
+
+string + string = concatenação, que é a junção dos dois valores, sem somar!!!
+number + number = soma, logo vai somar os valores.
