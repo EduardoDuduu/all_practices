@@ -11,21 +11,42 @@ Em JS não é obrigatório o ; no final das declarações.
 /* */ <- possibilita cometários em mais de uma linha.
 
 Tipos Primitivos:
+
+>typeof< indentifica o tipo de dado
+
 1° > tipo number (1, 2, 3, 4 ...)
-2° > tipo boolean (true ou false)
-3° > tipo string (a, B, c ...)
+	    °Infinity
+	    °NaN
+2° > tipo string (a, B, c ...)
+3° > tipo boolean (true ou false)
+4º > tipo null
+5º > tipo undefined
+6º > object
+        Array
+7º > function
+
 
 Declaraçcão de variaveis:
 
 formas de delimitar uma string:
-    {""
+   {""
     ''
     ``}
 
-var = variavel
-const = Contante 
-let = ?
+var = variavel global
+const = variavel com valor fixo
+let = variavel local 
 
 Regras para identificadores de variáveis:
 
-*
+*Podem come;ar com letras, $ ou _
+*Não podem comçar com números
+*É possível usar letras ou números
+*É possível usar acentos e símbolos
+*Não podem conter espaços
+*Não podem ser palavras já usadas pela linguagem
+
+Dicas:
+*Maiusculas e minúsculas fazem diferença
+*Tente escolher nomes coerentes para as variáveis
+*Evite se tornar um 'programador alfabeto' ou um 'programador contador'
