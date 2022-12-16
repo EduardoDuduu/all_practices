@@ -1,0 +1,31 @@
+JavaScript ou JS
+
+> JS é uma linguagem de programação extremamente famosa e poderosa!
+
+Alguns comentários:
+
+Em JS não é obrigatório o ; no final das declarações.
+
+// <- Possibilita comentarios em uma unica linha.
+
+/* */ <- possibilita cometários em mais de uma linha.
+
+Tipos Primitivos:
+1° > tipo number (1, 2, 3, 4 ...)
+2° > tipo boolean (true ou false)
+3° > tipo string (a, B, c ...)
+
+Declaraçcão de variaveis:
+
+formas de delimitar uma string:
+    {""
+    ''
+    ``}
+
+var = variavel
+const = Contante 
+let = ?
+
+Regras para identificadores de variáveis:
+
+*

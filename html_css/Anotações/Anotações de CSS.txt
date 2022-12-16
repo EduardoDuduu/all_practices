@@ -1,0 +1,11 @@
+CSS = (Cascading Style Sheets) ou (Folhas de Estilo em Cascata)
+
+> As css são responsáveis pelo estílo da páguina, trazendo todas as alterações estéticas.
+
+Algumaas tags em css:
+
+>sintaxe    body {
+                background-color:;
+            }
+
+> tag       font-size:;

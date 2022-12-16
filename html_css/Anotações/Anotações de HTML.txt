@@ -1,0 +1,8 @@
+HTML = (Hypertext Markup Language) ou (Linguagem de Marcação de Hipertextos)
+
+> html se reserva apenas ao conteúdo, não sendo possivel estilisa-lo, para isso existem as css's.
+
+Algumas tags do html:
+
+> h1 até h6 = Indicam a presença de um título, e constróem a hierarquia de títulos.
+
