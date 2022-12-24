@@ -95,11 +95,11 @@ section#img02 {
 section > a.link-portfolio {
     font-size: small;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
     text-decoration: none;
-    margin-top: 15px;
-    padding: 3px 0px;
     text-align: center;
+    color: black;
+    margin-top: 15px;
+    padding: 3px 4px;
     border: 2px solid black;
     border-radius: 14px;
 }
