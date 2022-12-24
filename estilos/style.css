@@ -53,14 +53,14 @@ p.exercicios {
 
 a {
     color: black;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-main > h2 {
+h2 {
     padding: 5px 0px 5px 15px;
 }
 
@@ -69,7 +69,7 @@ span#mostrarDesafio {display: none;}
 span#esconderEx {display: inline;}
 span#mostrarEx {display: none;}
 
-main > section > h3 {
+h3 {
     background: white;
     padding: 10px 0px 10px 30px;
 }
@@ -103,15 +103,16 @@ section#desafiosCeV {display: none;}
 section#exCeV {display: none;}
 
 main > section > a {
-    padding: 10px;
     background-color: black;
+    text-align: center;
+    text-decoration: none;
     color: white;
+    padding: 10px;
     width: 160px;
     margin: auto;
     margin-bottom: 20px;
     margin-top: 15px;
     padding: 3px 0px;
-    text-align: center;
     border-radius: 14px;
 }
 
