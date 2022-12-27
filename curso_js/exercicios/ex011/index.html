@@ -7,6 +7,32 @@
     <title>Informe uma Velocidade</title>
 </head>
 <body>
-    
+    <h1>Sistema de Multas</h1>
+    <form>
+        <p>
+            Velocidade do carro: <input type="number" name="txtvel" id="itxtvel" max="400" placeholder="0 a 400"> Km/h
+        </p>
+        
+        <input type="button" value="Verificar" onclick="clicou()">
+        <input type="reset" value="Limpar">
+        
+        <div id="res"> </div>
+    </form>
+
+    <script>
+        function clicou() {
+            var txtvlo = window.document.querySelector('input#itxtvel')
+            var res = window.document.querySelector('div#res')
+            var nVel = Number(txtvlo.value)
+
+            res.innerHTML = `<p>Sua velocidade atual é de <strong>${nVel}Km/h</strong></p>`
+
+            if (nVel > 60) {
+                res.innerHTML += `<p>Você foi <strong>MULTADO</strong> por exeder o limite de velocidade!</p>`              
+            }
+
+            res.innerHTML += `<p>Dirija sempre com cinto de segurança!</p>`
+        }
+    </script>
 </body>
 </html>
