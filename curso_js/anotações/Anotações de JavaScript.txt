@@ -48,6 +48,54 @@ Regras para identificadores de variáveis:
 *Não podem conter espaços
 *Não podem ser palavras já usadas pela linguagem
 
+--------------------------------------------------------
+Estruturas Condicionais:
+--------------------------------------------------------
+
+Condicional Simples:
+
+if () {
+
+} else {
+
+}
+
+Condicional Aninhada:
+
+if () {
+
+} else if () {
+
+} else {
+
+}
+----------------------------------------------------------
+
+Condicional Múltipla:
+
+switch (expressão) {
+    case valor 1:
+    // aqui entra o codigo e para no break
+    
+    break
+
+    case valor 2:
+
+    break
+
+    case valor 3:
+
+    break
+
+    default: // esse parâmetro se comporta parecido com o else
+
+    break
+}
+
+
+
+
+
 Dicas:
 *Maiusculas e minúsculas fazem diferença
 *Tente escolher nomes coerentes para as variáveis
