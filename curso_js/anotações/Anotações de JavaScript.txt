@@ -102,7 +102,29 @@ switch (expressão) {
 Estruturas de Repetição:
 --------------------------------------------------------
 
+> Nesse primeiro exemplo, primeiro ocorre a verificação do valor na variável, depois o código.
 
+var cont = 1
+
+while (cont <= 10) {
+    console.log(`Olá mundo! ${cont}`)
+    cont++ //cont = cont + 1
+}
+
+> Já nesse exemplo o bloco de código vem primeiro, e depois a verifivação do valor da variável
+
+var cont = 1
+
+do {
+    console.log(`Olá mundo! ${cont}`)
+    cont++ //cont = cont + 1
+} while (cont <= 10)
+
+> Nesse exemplo o código é executado da mesma forma que os outros, porém de maneira resumida!
+
+for (var c = 1; c <= 5 ; c++) {
+    console.log(`Olá Mundo! ${c}`)
+}
 
 
 
