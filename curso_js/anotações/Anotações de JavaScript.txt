@@ -28,8 +28,6 @@ Tipos Primitivos:
 7º > function
 
 
-Declaraçcão de variaveis:
-
 formas de delimitar uma string:
     {
         ""
@@ -37,9 +35,11 @@ formas de delimitar uma string:
         ``
     }
 
-var = variavel global
-const = variavel com valor fixo
-let = variavel local 
+
+
+--------------------------------------------------------
+Declaraçcão de variaveis:
+--------------------------------------------------------
 
 Regras para identificadores de variáveis:
 
@@ -50,6 +50,11 @@ Regras para identificadores de variáveis:
 *Não podem conter espaços
 *Não podem ser palavras já usadas pela linguagem
 
+
+var = variavel global
+const = variavel com valor fixo
+let = variavel local
+
 --------------------------------------------------------
 Variáveis Compostas:
 --------------------------------------------------------
@@ -57,7 +62,7 @@ Variáveis Compostas:
 
 Array ou Vetor:
 
->Exemplo<
+>Exemplos<
 
 let num = [5,8,4] //sendo 5 na chave 0, 8 na chave 1, e 4 na chave 2
 
@@ -96,7 +101,7 @@ if () {
 } else {
 
 }
-----------------------------------------------------------
+--------------------------------------------------------
 
 Condicional Múltipla:
 
@@ -147,7 +152,7 @@ for (var c = 1; c <= 5 ; c++) {
     console.log(`Olá Mundo! ${c}`)
 }
 
-
+--------------------------------------------------------
 
 
 
