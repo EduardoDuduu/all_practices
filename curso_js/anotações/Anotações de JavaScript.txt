@@ -52,7 +52,13 @@ Regras para identificadores de variáveis:
 Estruturas Condicionais:
 --------------------------------------------------------
 
-Condicional Simples:
+Consicional Simples
+
+if () {
+
+}
+
+Condicional composta:
 
 if () {
 
@@ -91,6 +97,12 @@ switch (expressão) {
 
     break
 }
+
+--------------------------------------------------------
+Estruturas de Repetição:
+--------------------------------------------------------
+
+
 
 
 
