@@ -4,6 +4,8 @@ JavaScript ou JS
 
 Alguns comentários:
 
+INPORTANTE: em JS as sequencias numéricas sempre começão pelo 0!!!!!!
+
 Em JS não é obrigatório o ; no final das declarações.
 
 // <- Possibilita comentarios em uma unica linha.
@@ -47,6 +49,25 @@ Regras para identificadores de variáveis:
 *É possível usar acentos e símbolos
 *Não podem conter espaços
 *Não podem ser palavras já usadas pela linguagem
+
+--------------------------------------------------------
+Variáveis Compostas:
+--------------------------------------------------------
+"Uma (array) é uma variavel composta por vários (elementos), cada elemento é composto por seu (valor), e cada valor é composto por uma (chave) de identificação!"
+
+Array ou Vetor:
+
+>Exemplo<
+
+let num = [5,8,4] //sendo 5 na chave 0, 8 na chave 1, e 4 na chave 2
+
+num[3] = 6 //Vai criar de forma automatizada, mais um elemento com valor 6 e indice(chave) 3
+
+Método interno do JS > " num.push(7) " // Vai fazer o mesmo que o exemplo acima!
+
+num.length // Retorna o comprimento de uma variavel, ou dizendo a quantidade de seus elementos
+
+num.sort() // Reorganiza todos os elementos de uma array de formar crescente!
 
 --------------------------------------------------------
 Estruturas Condicionais:
