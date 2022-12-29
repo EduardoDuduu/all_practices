@@ -11,21 +11,21 @@ header {
 }
 
 section {
-    width: 400px;
-    height: 300px;
+    max-width: 400px;
+    height: 270px;
     background-color: white;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.500);
     margin: auto;
     border-radius: 15px;
 }
 
-div#msg {
-    margin: 0px 0px 20px 0px;
-    padding: 15px 0px 0px 0px;
-}
-
 div {
     text-align: center;
+}
+
+div#msg {
+padding-top: 15px;
+padding-bottom: 10px;
 }
 
 div > img#imgArquivo {
