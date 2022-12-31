@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: xx-large;
     color: black;
     text-align: center;
     padding: 5px 0px 5px 0px;
@@ -22,26 +22,26 @@ header {
     padding-top: 20px;
 }
 
-header  img {
+header img {
     display: block;
-    margin: auto;
     max-width: 150px;
+    margin: auto;
     border-radius: 50%;
 }
 
-header > a#social {
+header a#social {
     color: black;
-    display: block;
     margin: auto;
     margin-top: 20px;
     padding-bottom: 5px;
     width: 150px;
+    display: block;
     border: 1px solid black;
     border-radius: 15px;
     background: linear-gradient(to bottom, rgb(236, 142, 0), rgb(251, 255, 2));
 }
 
-header > p {
+header p {
     font-size: 1.2em;
     margin: auto;
     padding-top: 15px;
@@ -52,8 +52,6 @@ header > p {
 main {
     max-width: 850px;
     margin: auto;
-    margin-left: 5px;
-    margin-right: 5px;
     padding-bottom: 30px;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.400);
     background-color: white;
@@ -61,34 +59,39 @@ main {
 }
 
 main h2 {
+    font-size: larger;
     padding: 5px 0px 5px 15px;
 }
 
-main  h3 {
-    background: white;
+main h2.tituloCont {
+    cursor: pointer;
+}
+
+main h3 {
+    font-size: medium;
     padding: 10px 0px 10px 30px;
+    background: white;
 }
 
-main p#subTitulo1 {
-    padding-left: 30px;
-    padding-bottom: 20px;
+span.material-icons, span.material-symbols-sharp {
+    font-size: 16px;
 }
 
-main p#subTitulo2 {
-    padding-left: 30px;
+main p#subTitulo1, p#subTitulo2 {
     padding-bottom: 20px;
+    padding-left: 30px;
 }
 
 main a {
-    color: black;
     text-decoration: underline;
+    color: black;
 }
 
 main a:hover {
     text-decoration: underline;
 }
 
-main  section.container {
+main section.container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -96,7 +99,7 @@ main  section.container {
 
 }
 
-main  section  a {
+main section a {
     background-color: black;
     text-align: center;
     text-decoration: none;
