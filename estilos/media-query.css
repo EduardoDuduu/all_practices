@@ -10,7 +10,7 @@
         background: linear-gradient(to bottom, rgb(15, 15, 15), rgb(158, 158, 158));
     }
 
-    main > section > div.destaque {
-        display: block;
+    main {
+        
     }
 }

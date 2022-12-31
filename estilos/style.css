@@ -7,6 +7,8 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(158, 158, 158);
 }
 
@@ -50,8 +52,9 @@ header p {
 }
 
 main {
-    max-width: 850px;
+    max-width: 700px;
     margin: auto;
+    margin-bottom: 30px;
     padding-bottom: 30px;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.400);
     background-color: white;
@@ -94,12 +97,8 @@ main a:hover {
     text-decoration: underline;
 }
 
-main section.container {
-    display: flex;
-    flex-direction: row;
+main section {
     flex-wrap: wrap;
-    justify-content: space-around;
-
 }
 
 main section a {
@@ -117,18 +116,14 @@ main section a {
 }
 
 footer {
-    background-color: black;
     color: white;
     font-size: small;
     text-align: center;
+    width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    height: 13px;
-    width: 100%;
+    background-color: black;
+    align-self: flex-end;
 }
 
 footer > img {
