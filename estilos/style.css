@@ -17,26 +17,27 @@ h1 {
     padding: 5px 0px 5px 0px;
 }
 
-header{
-    padding-top: 20px;
+header {
     text-align: center;
+    padding-top: 20px;
 }
 
-header > img {
+header  img {
     display: block;
     margin: auto;
     max-width: 150px;
     border-radius: 50%;
 }
 
-a#social {
+header > a#social {
+    color: black;
     display: block;
-    border: 1px solid black;
-    border-radius: 15px;
     margin: auto;
     margin-top: 20px;
     padding-bottom: 5px;
     width: 150px;
+    border: 1px solid black;
+    border-radius: 15px;
     background: linear-gradient(to bottom, rgb(236, 142, 0), rgb(251, 255, 2));
 }
 
@@ -48,46 +49,54 @@ header > p {
     max-width: 450px;
 }
 
-main{
-    box-shadow: 2px 2px 15px rgb(0, 0, 0);
-    background-color: white;
+main {
     max-width: 850px;
     margin: auto;
+    margin-left: 5px;
+    margin-right: 5px;
     padding-bottom: 30px;
-    border-radius: 10px 10px 0px 0px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.400);
+    background-color: white;
+    border-radius: 5px;
 }
 
-h2 {
+main h2 {
     padding: 5px 0px 5px 15px;
 }
 
-p.exercicios {
-    padding-left: 30px;
-    padding-bottom: 20px;
-}
-
-a {
-    color: black;
-    text-decoration: underline;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-h3 {
+main  h3 {
     background: white;
     padding: 10px 0px 10px 30px;
 }
 
-main > section.container {
+main p#subTitulo1 {
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+main p#subTitulo2 {
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+main a {
+    color: black;
+    text-decoration: underline;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+main  section.container {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
 
 }
 
-main > section > a {
+main  section  a {
     background-color: black;
     text-align: center;
     text-decoration: none;
@@ -123,11 +132,3 @@ footer > a {
 footer > a:hover {
     text-decoration: underline;
 }
-
-span#esconderDesafio {display: inline;}
-span#mostrarDesafio {display: none;}
-span#esconderEx {display: inline;}
-span#mostrarEx {display: none;}
-
-section#desafiosCeV {display: none;}
-section#exCeV {display: none;}

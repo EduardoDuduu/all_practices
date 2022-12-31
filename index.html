@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp">
     <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="estilos/media-query.css">
+    <script src="scripts/script.js"></script>
 
 </head>
-<body>
+<body onload="loadPage()">
     <h1>Bem vindo ao meu portfólio</h1>
     <header>
         <img src="imagens/foto-perfil-eduardo.jpg" alt="foto de perfil">
@@ -29,25 +30,25 @@
         <h3>
             <a href="https://eduardoduduu.github.io/historia-do-android/" target="_blank">Projeto História do Android</a>
             <span class="material-symbols-sharp">link</span>
-            </h3>
+        </h3>    
 
         <h3>
             <a href="https://eduardoduduu.github.io/projeto-cordel/" target="_blank">Projeto Cordel</a>
             <span class="material-symbols-sharp">link</span>
         </h3>
 
-        <h2 onclick="clickDesafio()">
-            Desafios do Curso em Vídeo</a>
-            <span id="mostrarDesafio" class="material-icons">expand_more</span>
-            <span id="esconderDesafio" class="material-icons">chevron_right</span>
+        <h2 onclick="clicouDesafio()">
+            Desafios do Curso em Vídeo
+            <span id="mostrarContent1" class="material-icons">expand_more</span>
+            <span id="esconderContent1" class="material-icons">chevron_right</span>
         </h2>
         
-        <p class="exercicios">
+        <p id="subTitulo1">
             Alguns desafios que eu fiz, propostos no <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n">curso de HTML e CSS</a>
             <span class="material-symbols-sharp">link</span>
         </p>
         
-        <section id="desafiosCeV" class="container">
+        <section id="conteudoLink1" class="container">
             <a href="html_css/desafios/desafio1/index.html">&gt; Desafio 01</a>
             <a href="html_css/desafios/desafio2/index.html">&gt; Desafio 02</a>
             <a href="html_css/desafios/desafio3/index.html">&gt; Desafio 03</a>
@@ -64,18 +65,18 @@
             <a href="html_css/desafios/desafio14/index.html">&gt; Desafio 14</a>
         </section>
 
-        <h2 onclick="clickEx()">
+        <h2 onclick="clicouExercicio()">
             Exercícios do Curso em Vídeo
-            <span id="mostrarEx" class="material-icons">expand_more</span>
-            <span id="esconderEx" class="material-icons">chevron_right</span>
+            <span id="mostrarContent2" class="material-icons">expand_more</span>
+            <span id="esconderContent2" class="material-icons">chevron_right</span>
         </h2>
         
-        <p class="exercicios">
+        <p id="subTitulo2">
             Alguns exercícios que eu fiz, propostos no <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n">curso de HTML e CSS</a>
             <span class="material-symbols-sharp">link</span>
         </p>
 
-        <section id="exCeV" class="container">
+        <section id="conteudoLink2" class="container">
             <a href="html_css/exercicios/ex001/index.html">&gt; Exercício 01</a>
             <a href="html_css/exercicios/ex002/index.html">&gt; Exercício 02</a>
             <a href="html_css/exercicios/ex003/index.html">&gt; Exercício 03</a>
@@ -103,33 +104,7 @@
             <a href="html_css/exercicios/ex026/index.html">&gt; Exercício 25</a>
         </section>
     </main>
-    <footer>
-        Criado por <img src="imagens/icone-github.png" alt=""> <a href="https://github.com/EduardoDuduu" target="_blank">Eduardo de Oliveira</a>
-    </footer>
-    <script>
-        function clickDesafio() {
-            if (desafiosCeV.style.display == 'none') {
-                desafiosCeV.style.display = 'flex'
-                mostrarDesafio.style.display = 'inline'
-                esconderDesafio.style.display = 'none'
-            } else {
-                desafiosCeV.style.display = 'none'
-                esconderDesafio.style.display = 'inline'
-                mostrarDesafio.style.display = 'none'
-            }
-        }
 
-        function clickEx() {
-            if (exCeV.style.display == 'none') {
-                exCeV.style.display = 'flex'
-                mostrarEx.style.display = 'inline'
-                esconderEx.style.display = 'none'
-            } else {
-                exCeV.style.display = 'none'
-                esconderEx.style.display = 'inline'
-                mostrarEx.style.display = 'none'
-            }
-        }
-    </script>
+    <footer> Criado por <img src="imagens/icone-github.png" alt=""> <a href="https://github.com/EduardoDuduu" target="_blank">Eduardo de Oliveira</a> </footer>
 </body>
 </html>
