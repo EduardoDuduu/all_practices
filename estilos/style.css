@@ -64,6 +64,7 @@ main h2 {
 }
 
 main h2.tituloCont {
+    margin-bottom: 10px;
     cursor: pointer;
 }
 
