@@ -9,10 +9,29 @@
 </head>
 <body>
     <header>
-        <h1>Titulo</h1>
+        <h1>Vrificador de Idade</h1>
     </header>
     <main>
+        <div>
+            <p>
+                Ano de Nascimento:
+                <input type="number" name="txtano" id="itxtano" min="0">
+            </p>
+            <p>
+                Sexo:
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
 
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            
+        </div>
     </main>
     <footer>
         <p>&copy; <a href="https://www.github.com/EduardoDuduu">EduardoDuduu</a></p>
