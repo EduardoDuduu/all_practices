@@ -11,6 +11,6 @@
     }
 
     main {
-        width: 748px;
+        max-width: 728px;
     }
 }
