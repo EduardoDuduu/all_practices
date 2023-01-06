@@ -197,3 +197,19 @@ dom = document object model
 eventos DOM
 arvore dom
 manipulação em dom
+
+Proximos passos:
+
+functions
+
+objetos
+
+modularização
+
+RegEx
+
+json
+
+ajax
+
+NodeJS
