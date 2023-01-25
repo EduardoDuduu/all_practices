@@ -54,19 +54,22 @@ header p {
 main {
     width: 95%;
     margin: auto;
-    margin-bottom: 60px;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.400);
     background-color: white;
-    border-radius: 5px;
+    border-radius: 5px 5px 0px 0px;
 }
 
 main h2 {
     font-size: larger;
-    padding: 5px 0px 5px 15px;
+    padding: 5px 0px 10px 15px;
 }
 
-main h2.tituloCont {
+main h2#tituloDesafio {
     margin-bottom: 10px;
+    cursor: pointer;
+}
+
+main h2#tituloExercicio {
     cursor: pointer;
 }
 
@@ -117,11 +120,13 @@ footer {
     color: white;
     font-size: small;
     text-align: center;
-    width: 100%;
-    height: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    width: 95%;
+    height: 34px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: black;
+    border-radius: 0px 0px 5px 5px;
 }
 
 footer > img {
