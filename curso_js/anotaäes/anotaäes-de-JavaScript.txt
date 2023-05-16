@@ -1,0 +1,215 @@
+JavaScript ou JS
+
+> JS é uma linguagem de programação extremamente famosa e poderosa!
+
+Alguns comentários:
+
+INPORTANTE: em JS as sequencias numéricas sempre começão pelo 0!!!!!!
+
+Em JS não é obrigatório o ; no final das declarações.
+
+// <- Possibilita comentarios em uma unica linha.
+
+/* */ <- possibilita cometários em mais de uma linha.
+
+Tipos Primitivos:
+
+>typeof< indentifica o tipo de dado
+
+1° > tipo number (1, 2, 3, 4 ...)
+	    °Infinity
+	    °NaN
+2° > tipo string (a, B, c ...)
+3° > tipo boolean (true ou false)
+4º > tipo null
+5º > tipo undefined
+6º > object
+        *Array
+7º > function
+
+
+formas de delimitar uma string:
+    {
+        ""
+        ''
+        ``
+    }
+
+
+
+--------------------------------------------------------
+Declaraçcão de variaveis:
+--------------------------------------------------------
+
+Regras para identificadores de variáveis:
+
+*Podem começar com letras, $ ou _
+*Não podem comçar com números
+*É possível usar letras ou números
+*É possível usar acentos e símbolos
+*Não podem conter espaços
+*Não podem ser palavras já usadas pela linguagem
+
+
+var = variavel global
+const = variavel com valor fixo
+let = variavel local
+
+--------------------------------------------------------
+Variáveis Compostas:
+--------------------------------------------------------
+"Uma (array) é uma variavel composta por vários (elementos), cada elemento é composto por seu (valor), e cada valor é composto por uma (chave) de identificação!"
+
+Array ou Vetor:
+
+>Exemplos<
+
+let num = [5,8,4] //sendo 5 na chave 0, 8 na chave 1, e 4 na chave 2
+
+num[3] = 6 //Vai criar de forma automatizada, mais um elemento com valor 6 e indice(chave) 3
+
+Método interno do JS > " num.push(7) " // Vai fazer o mesmo que o exemplo acima!
+
+num.length // Retorna o comprimento de uma variavel, ou dizendo a quantidade de seus elementos
+
+num.sort() // Reorganiza todos os elementos de uma array de formar crescente!
+
+--------------------------------------------------------
+Estruturas Condicionais:
+--------------------------------------------------------
+
+Consicional Simples
+
+if () {
+
+}
+
+Condicional composta:
+
+if () {
+
+} else {
+
+}
+
+Condicional Aninhada:
+
+if () {
+
+} else if () {
+
+} else {
+
+}
+--------------------------------------------------------
+
+Condicional Múltipla:
+
+switch (expressão) {
+    case valor 1:
+    // aqui entra o codigo e para no break
+    
+    break
+
+    case valor 2:
+
+    break
+
+    case valor 3:
+
+    break
+
+    default: // esse parâmetro se comporta parecido com o else
+
+    break
+}
+
+--------------------------------------------------------
+Estruturas de Repetição:
+--------------------------------------------------------
+
+> Nesse primeiro exemplo, primeiro ocorre a verificação do valor na variável, depois o código.
+
+var cont = 1
+
+while (cont <= 10) {
+    console.log(`Olá mundo! ${cont}`)
+    cont++ //cont = cont + 1
+}
+
+> Já nesse exemplo o bloco de código vem primeiro, e depois a verifivação do valor da variável
+
+var cont = 1
+
+do {
+    console.log(`Olá mundo! ${cont}`)
+    cont++ //cont = cont + 1
+} while (cont <= 10)
+
+> Nesse exemplo o código é executado da mesma forma que os outros, porém de maneira resumida!
+
+for (var c = 1; c <= 5 ; c++) {
+    console.log(`Olá Mundo! ${c}`)
+}
+
+--------------------------------------------------------
+
+
+
+Dicas:
+*Maiusculas e minúsculas fazem diferença
+*Tente escolher nomes coerentes para as variáveis
+*Evite se tornar um 'programador alfabeto' ou um 'programador contador'
+
+string + string = concatenação, que é a junção dos dois valores, sem somar!!!
+number + number = soma, logo vai somar os valores.
+
+> Formatação de strings
+
+var s = 'Java Script'
+'Eu estou aprendendo s'      //não faz interpolação
+'Eu estou aprendendo ' + s   //usa concatenação
+`Eu estou aprendendo ${s}`   //usa template strings
+
+>Formatação de números
+
+var n1 = 1545.5
+n1.toFixed(2)                     //Para mostrar 2 casas decimais após a virgula
+Resultado: '1545.50'
+
+n1.toFixed(2).replace('.',',')    //Para trocar o ponto por virgula
+Resultado: '1545,50'
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+Resultado: 'R$ 1,545.50'
+
++=
+
+-=
+
+++
+
+--
+
+? :
+
+dom = document object model
+eventos DOM
+arvore dom
+manipulação em dom
+
+Proximos passos:
+
+functions
+
+objetos
+
+modularização
+
+RegEx
+
+json
+
+ajax
+
+NodeJS

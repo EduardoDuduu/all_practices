@@ -1,0 +1,37 @@
+CSS = (Cascading Style Sheets) ou (Folhas de Estilo em Cascata)
+
+> As css são responsáveis pelo estílo da páguina, trazendo todas as alterações estéticas.
+
+Algumaas tags em css:
+
+>sintaxe    body {
+                background-color:;
+            }
+
+> tag       font-size:;
+
+FlexBox :
+
+.container {
+  display: flex; /* or inline-flex */
+  flex-direction: column; /*row | row-reverse | column | column-reverse*/
+  flex-wrap: wrap; /*nowrap | wrap | wrap-reverse*/
+  justify-content: flex-start; /*flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe*/
+  align-items: stretch; /*stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe*/
+  align-content: normal; /*flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe*/
+  /*
+  gap: 10px;
+  gap: 10px 20px; / row-gap column gap /
+  row-gap: 10px;
+  column-gap: 20px;
+  */
+}
+
+.item {
+    order: 5; /* default is 0 */
+    flex-grow: 4; /* default 0 */
+    flex-shrink: 3; /* default 1 */
+    flex-basis: auto; /* default auto */
+    flex: auto; /*none  [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]*/
+    align-self: auto; /*auto | flex-start | flex-end | center | baseline | stretch*/
+}
